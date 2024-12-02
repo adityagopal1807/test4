@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Testimonial</title>
+    <style>
+        /* Basic styling for body */
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full screen height */
+            flex-direction: column; /* Center content vertically and horizontally */
+        }
+
+        /* Container for the testimonial section */
+        .testimonial-wrapper {
+            text-align: center;
+            margin-bottom: 20px; /* Space between title and the testimonial box */
+        }
+
+        /* Styling the title */
+        .testimonial-title {
+            color: red;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Container for the testimonial text */
+        .testimonial-container {
+            background-color: black;
+            border: 2px solid red;
+            border-radius: 8px;
+            box-shadow: 0px 4px 15px red;
+            padding: 20px;
+            max-width: 90%; /* Makes it responsive on smaller screens */
+            text-align: center;
+            margin: 10px; /* Prevents content from hitting the edge of the screen */
+        }
+
+        /* Styling the testimonial text */
+        .testimonial-text {
+            font-style: italic;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        /* Author styling */
+        .author {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        /* Designation (Company/Job Title) */
+        .designation {
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        /* Quotation marks styling */
+        .quote {
+            color: red;
+            font-size: 24px;
+        }
+
+        /* Responsive Styles for small devices */
+        @media (max-width: 480px) {
+            .testimonial-container {
+                padding: 15px;
+            }
+            .testimonial-title {
+                font-size: 22px; /* Smaller title size on mobile */
+            }
+            .testimonial-text {
+                font-size: 14px; /* Smaller font size for mobile */
+            }
+            .quote {
+                font-size: 20px; /* Smaller quote font on mobile */
+            }
+            .author {
+                font-size: 16px; /* Smaller author text */
+            }
+            .designation {
+                font-size: 12px; /* Smaller designation text */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Testimonial Section -->
+    <div class="testimonial-wrapper">
+        <div class="testimonial-title">What Parents Say About Us</div>
+        <div class="testimonial-container">
+            <div class="testimonial-text">
+                <span class="quote">“</span>
+                My name is Vijay Malhotra, and I am a businessman looking for authentic home tuition in Patna. 
+                There are many home tuition providers in the area, but Anandam Home Tuition is the best in Patna 
+                because it is a genuine bureau that charges nominal fees from parents.
+                <span class="quote">”</span>
+            </div>
+            <div class="author">Vijay Malhotra</div>
+            <div class="designation">Malhotra Service Pvt. Ltd.</div>
+        </div>
+    </div>
+</body>
+</html>
+
